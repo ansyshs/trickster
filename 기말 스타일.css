@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .img{
+    position: center;
+    background-image: url(https://t1.daumcdn.net/cfile/tistory/99F58D465BDC1C1C2F);                                                               
+    height: 60vh;
+    background-size: cover;
+  }
+
+  .img-cover{
+     position: center;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.7);                                                                 
+     z-index:1;
+  }
+
+  .img .content{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:5rem;
+     color: rgb(205, 0, 0);
+     z-index: 2;
+     text-align: center;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+.footer {
+    height: 60;
+    margin-top: 50px;
+    text-align: center;
+    background: #333;
+    color: white;
+  }
+  
